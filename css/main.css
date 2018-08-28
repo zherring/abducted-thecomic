@@ -18,8 +18,10 @@ body {
   color: #fff;
   text-align: center;
   background: #000 url('../../img/bg-bottom.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   }
 
 footer { align-self: flex-end; opacity: .4; font-size: .8em; width: 100%; }
@@ -33,7 +35,7 @@ img.splash { width: 100%; max-width: 800px; }
 
 .ch { width: 100% }
 .ch > div { width: 50%; }
-.fl { display: flex; justify-content: center;}
+.fl { display: flex; justify-content: center; align-items: center; }
 .fl-row { flex-direction: row; }
 .fl-col { flex-direction: column; }
 
