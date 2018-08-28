@@ -20,8 +20,7 @@ body {
   background: #000 url('../../img/bg-bottom.jpg');
   background-size: cover;
   background-position: bottom;
-
-}
+  }
 
 footer { align-self: flex-end; opacity: .4; font-size: .8em; width: 100%; }
 a { color: #fff; }
