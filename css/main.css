@@ -23,17 +23,18 @@ body {
 
 }
 
+footer { align-self: flex-end; opacity: .4; font-size: .8em; width: 100%; }
 a { color: #fff; }
 a:visited { color: #f0f0f0 }
-body > div { margin: 4.5em; }
-img.splash { max-width: 800px; }
+body > div { margin: 4.5em 0; }
+img.splash { width: 100%; max-width: 800px; }
 .typewr {
     font-family: 'Special Elite', cursive;
   }
 
 .ch { width: 100% }
 .ch > div { width: 50%; }
-.fl { display: flex; }
+.fl { display: flex; justify-content: center;}
 .fl-row { flex-direction: row; }
 .fl-col { flex-direction: column; }
 
