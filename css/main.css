@@ -17,13 +17,19 @@ body {
   font-family: helvetica, arial, san-sans-serif;
   color: #fff;
   text-align: center;
-  background: #000 url('../../img/bg-bottom.jpg');
-  background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #000;
+  background-image: url('../../img/bg-sharp.svg'), url('../../img/bg-bottom.jpg');
+  background-size: 115%, cover;
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: scroll, fixed;
   }
 
+
+header {
+  /* background: url('../../img/bg-sharp.svg')  */
+  padding-top: 3rem;
+  }
 footer { align-self: flex-end; opacity: .4; font-size: .8em; width: 100%; }
 a { color: #fff; }
 a:visited { color: #f0f0f0 }
