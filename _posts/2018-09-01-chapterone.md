@@ -2,7 +2,7 @@
 layout: chapter
 title: Pinned and Mounted
 aside: Chapter One
-permalink: /chapter-one/p
+permalink: /chapter-one
 spotify: zherring/playlist/1xbe0MhF2HtwfCQqJJY97z
 description: Claire has a nightmare and tells someone about it. Doc struggles to fulfill his obligations. There's trouble at school.
 
