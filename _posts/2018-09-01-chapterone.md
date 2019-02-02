@@ -42,4 +42,3 @@ description: Claire has a nightmare and tells someone about it. Doc struggles to
 <img data-src="{{site.baseurl}}/assets/chapter-one/p32.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p33.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p34.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-one/p35.jpg" class="lazyload" />
