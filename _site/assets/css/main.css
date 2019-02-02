@@ -724,6 +724,8 @@ nav {
     #right-col p img {
       width: 100%;
       max-width: 850px; }
+  #right-col img {
+    padding-bottom: 1em; }
 
 /*
  * Remove text-shadow in selection highlight:
