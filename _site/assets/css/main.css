@@ -594,8 +594,7 @@ main {
   flex-direction: column;
   justify-content: center; }
   #main-splash > p {
-    margin: 0;
-    padding: 0; }
+    margin: .5em; }
   #main-splash img.splash {
     width: 100%;
     max-width: 800px; }
@@ -651,6 +650,10 @@ img#splash-logo {
     #front-col p img {
       width: 100%;
       max-width: 980px; }
+
+#main-splash
+.gray {
+  color: #8f8f8f; }
 
 #front-col .splash-ch-description {
   text-align: left;
