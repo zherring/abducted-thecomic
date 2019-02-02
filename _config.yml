@@ -16,11 +16,11 @@
 title: Abducted - A horror-thriller comic told in 6 chapters
 email: z.herring@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Enemy of the State by way of Fear and Loathing in Las Vegas witha  dash of X-Files. An online comic coming out semi-monthly.
+  Enemy of the State by way of Fear and Loathing in Las Vegas with a dash of X-Files. An online comic coming out semi-monthly.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: zherring
-github_username:  jekyll
+github_username:  zherring
 
 # Build settings
 markdown: kramdown
