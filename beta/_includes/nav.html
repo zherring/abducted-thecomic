@@ -1,0 +1,17 @@
+<div id="nav-container">
+  <nav>
+    <a href="/">
+      <img id="nav-logo" src="{{site.baseurl}}/assets/abducted-logo.svg" />
+    </a>
+    <ul>
+      {% for item in site.posts %}
+        <li class="{% if item.url == page.url %}active{% endif %}">
+          <a href="{{item.url}}">
+            <aside>{{item.aside}}</aside>
+            <h3>{{item.title}}</h3>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</div>

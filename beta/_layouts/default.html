@@ -1,0 +1,35 @@
+{% include header.html %}
+        <main>
+          <div id="main-splash">
+            {{ content }}
+          </div>
+
+          <div class="fl fl-row">
+            <div id="front-col">
+              {% for item in site.posts %}
+                <div class="fl fl-row chapter-item">
+                  <a href="{{item.url}}">
+                    <div class="splash-ch-thumb" style="background-image: url('{{site.baseurl}}/assets{{item.permalink}}cover.jpg')">
+                      <aside class="typewr">{{item.aside}}</aside>
+                      <h3 class="typewr">{{item.title}}</h3>
+                    </div>
+                    <div class="splash-ch-description">
+                      <p>{{ item.description }}</p>
+                      <p>
+                        <a class="spotify-link" href="https://open.spotify.com/user/{{item.spotify}}" target="_blank">
+                          {% include spotify.svg %}
+                        Spotify Mixtape
+                        </a>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+
+              {% endfor %}
+            </div>
+          </div>
+        </main>
+
+  {% include footer.html %}
+
+  </html>
