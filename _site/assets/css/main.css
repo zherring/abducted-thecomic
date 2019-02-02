@@ -33,10 +33,13 @@ a, a:visited, a:active {
   text-decoration: none; }
 
 a {
-  color: #666; }
+  color: #ddd; }
 
 a:visited {
-  color: #f0f0f0; }
+  color: #ddd; }
+
+a:hover {
+  color: #FFF; }
 
 .typewr {
   font-family: 'Special Elite', san-serif; }

@@ -23,8 +23,9 @@ body {
 
 a, a:visited, a:active { color: #666; text-decoration: none; }
 
-a { color: #666; }
-a:visited { color: #f0f0f0 }
+a { color: #ddd; }
+a:visited { color: #ddd }
+a:hover { color: #FFF }
 
 .typewr {
     font-family: 'Special Elite', san-serif;
