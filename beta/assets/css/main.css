@@ -646,7 +646,6 @@ img#splash-logo {
   padding: 2em;
   padding-bottom: 3em; }
   #front-col p {
-    font-size: 1.3em;
     color: #b9b9b9;
     font-weight: lighter; }
     #front-col p img {
@@ -655,7 +654,7 @@ img#splash-logo {
 
 #front-col .splash-ch-description {
   text-align: left;
-  padding: 2rem;
+  padding: 3.5rem;
   width: 24rem; }
   #front-col .splash-ch-description .spotify {
     width: 1em;
@@ -720,7 +719,6 @@ nav {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch; }
   #right-col p {
-    font-size: 1.3em;
     color: #b9b9b9;
     font-weight: lighter; }
     #right-col p img {
