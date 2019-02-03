@@ -684,7 +684,7 @@ img#splash-logo {
   animation: floating 1s linear 2s infinite alternate; }
 
 @keyframes floating {
-  0% {
+  from {
     transform: translatey(0.8em);
     opacity: .5; }
   to {
