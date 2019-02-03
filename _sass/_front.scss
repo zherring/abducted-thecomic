@@ -97,3 +97,15 @@ img#splash-logo { width: 70%; max-width: 900px; margin-bottom: 2rem;}
   &:hover { opacity: 1; }
   svg { margin-top: -0.2rem; }
 }
+
+#scroll-arrow {
+  opacity: .7;
+  transform: translateY(1em);
+   animation: floating 1s linear 2s infinite alternate;
+   // animation-direction: alternate;
+  }
+
+@keyframes floating {
+  from {transform: translatey(.8em); opacity: 1;}
+  to {transform: translatey(1em); opacity: .3;}
+  }

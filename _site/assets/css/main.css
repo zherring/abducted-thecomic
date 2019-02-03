@@ -678,6 +678,18 @@ img#splash-logo {
   .spotify-link svg {
     margin-top: -0.2rem; }
 
+#scroll-arrow {
+  opacity: .7;
+  transform: translateY(1em);
+  animation: floating 1s linear 2s infinite alternate; }
+
+@keyframes floating {
+  from {
+    transform: translatey(0.8em);
+    opacity: 1; }
+  to {
+    transform: translatey(1em);
+    opacity: .3; } }
 #nav-container, nav {
   width: 16.75rem; }
 
