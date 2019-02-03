@@ -4,7 +4,7 @@ title: Open Chords
 aside: Chapter Six
 permalink: /chapter-six/
 spotify: zherring/playlist/2k91L4sDkeFZeDKXSSCU6S
-description: Coming December, 2019
+description: Coming Winter, 2019/2020
 ---
 
-_Coming December, 2019_
+_Coming Winter, 2019/2020_

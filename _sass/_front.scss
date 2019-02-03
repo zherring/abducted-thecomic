@@ -19,7 +19,7 @@ main {
   justify-content: center;
 
   > p { margin: .5em; }
-  img.splash { width: 100%; max-width: 800px; }
+  img.splash { width: 100%; max-width: 800px; min-height: 500vh; }
 }
 
 img#splash-logo { width: 70%; max-width: 900px; margin-bottom: 2rem;}
@@ -72,7 +72,8 @@ img#splash-logo { width: 70%; max-width: 900px; margin-bottom: 2rem;}
   }
 }
 
-#main-splash
+#main-splash {
+}
 .gray { color: #8f8f8f; }
 
 #front-col .splash-ch-description {
