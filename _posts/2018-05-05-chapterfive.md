@@ -2,7 +2,6 @@
 layout: chapter
 title: Super Unknown
 aside: Chapter Five
-class: soon
 permalink: /chapter-five/
 spotify: zherring/playlist/6oSohGpSJBDRt6v6MYpS86
 description: Coming Late Fall, 2019
