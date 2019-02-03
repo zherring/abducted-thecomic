@@ -2,6 +2,7 @@
 layout: chapter
 title: First Day on the Job
 aside: Chapter Three
+class: soon
 permalink: /chapter-three/
 spotify: zherring/playlist/4QwM4A0nFbZpO31WHwBdhy
 description: Coming Summer, 2019

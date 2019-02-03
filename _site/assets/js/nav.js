@@ -1,4 +1,4 @@
-
+//
 //
 // // const el = document.querySelector('nav');
 //
@@ -26,4 +26,12 @@
 //     h.style.position = 'static';
 //     stuck = false;
 //   }
+// }
+
+
+// 
+// var disabledLinks = document.getElementsByClassName("soon")
+//
+// function disabledClicks(e) {
+//
 // }
