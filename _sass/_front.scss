@@ -106,6 +106,6 @@ img#splash-logo { width: 70%; max-width: 900px; margin-bottom: 2rem;}
   }
 
 @keyframes floating {
-  from {transform: translatey(.8em); opacity: 1;}
-  to {transform: translatey(1em); opacity: .3;}
+  0% {transform: translatey(.8em); opacity: .5;}
+  to {transform: translatey(1em); opacity: 1;}
   }

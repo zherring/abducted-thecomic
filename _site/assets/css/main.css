@@ -684,12 +684,12 @@ img#splash-logo {
   animation: floating 1s linear 2s infinite alternate; }
 
 @keyframes floating {
-  from {
+  0% {
     transform: translatey(0.8em);
-    opacity: 1; }
+    opacity: .5; }
   to {
     transform: translatey(1em);
-    opacity: .3; } }
+    opacity: 1; } }
 #nav-container, nav {
   width: 16.75rem; }
 
