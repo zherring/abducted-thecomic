@@ -657,6 +657,8 @@ img#splash-logo {
 
 .gray {
   color: #8f8f8f; }
+  .gray strong {
+    color: #fff; }
 
 #front-col .splash-ch-description {
   text-align: left;

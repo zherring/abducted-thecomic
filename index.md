@@ -11,5 +11,3 @@ layout: default
 
 <p class="typewr">A horror-thriller comic told in 6 chapters.</p>
 <small class="typewr gray">Written by <a href="https://www.instagram.com/zherring/" target="_blank">Zach Herring</a>. Drawn by <a href="https://www.instagram.com/jay_red_art/" target="_blank"> Jay Red</a>. Colored by <a href="https://www.instagram.com/comicbookcoloring/" target="_blank">Maja Opacic.</a></small>
-
-<img alt="Scroll Arrow " src="{{site.baseurl}}/assets/scroll-arrow.svg" id="scroll-arrow">
