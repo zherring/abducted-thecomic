@@ -2,16 +2,17 @@
         <main>
           <div id="main-splash">
             {{ content }}
-            <p>
+            <!-- <p>
               <span class="typewr gray"><strong class="typewr" id="days">00</strong> days, </span>
               <span class="typewr gray"><strong class="typewr" id="hours">00</strong> hours, </span>
               <span class="typewr gray"><strong class="typewr" id="minutes">00</strong> minutes, </span>
               <span class="typewr gray"><strong class="typewr" id="seconds">00</strong> seconds.</span>
-            </p>
+            </p> -->
+             <img alt="Scroll Arrow " src="{{site.baseurl}}/assets/scroll-arrow.svg" id="scroll-arrow">
           </div>
 
           <div class="fl fl-row">
-            <div id="front-col" style="display:none;">
+            <div id="front-col">
 
               {% for item in site.posts %}
               <a href="{{item.url}}">
@@ -39,7 +40,7 @@
 
   {% include footer.html %}
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   function countdown(endDate) {
     let days, hours, minutes, seconds;
 
@@ -83,6 +84,6 @@
     countdown('02/14/2019 09:00:00 AM');
   }());
 
-</script>
+</script> -->
 
   </html>
