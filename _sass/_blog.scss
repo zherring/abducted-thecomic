@@ -1,0 +1,54 @@
+#blog-main {
+  width: 100%;
+  text-align: left;
+
+  justify-content: left;
+
+}
+
+.blog-item {
+  border-left: 4px solid #343434;
+  display: block;
+  padding-left: 1.5rem;
+  margin-bottom: 3rem;
+
+  aside {
+  margin-top: -1rem;
+  font-size: .9rem;
+  color: gray;
+  }
+}
+
+#blog-gutter {
+  height: 100vh;
+  width: 30%;
+  max-width: 19rem;
+  background:  url(/assets/blog-gutter.jpg);
+  background-size: cover;
+  background-position: top center;
+  &.interior {
+    max-width: 3.5rem;
+
+  }
+}
+
+#posts, #post {
+  margin: 3rem;
+  max-width: 50rem;
+
+  #nav-logo {
+    width: 11rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+#read-more {
+  // border-left: 4px solid #343434;
+  // display: block;
+  // padding-left: 1.5rem;
+  // margin-bottom: 3rem;
+  // opacity: .3;
+  a { color: #8f8f8f; }
+
+  &:hover { opacity: 1;}
+}
