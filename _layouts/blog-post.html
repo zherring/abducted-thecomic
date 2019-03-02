@@ -1,19 +1,16 @@
 {% include header.html %}
 <main id="blog-main" class="fl fl-row">
-
+      <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
 
             <section id="blog-gutter" class="interior"></section>
             <section id="post">
               <a href="/blog">{% include logo.html %}</a>
-              <a id="home" href="/">
-                <img class="icon" src="{{site.baseurl}}/assets/back.svg">
-              </a>
-                <h1 class="typewr">{{ page.title }}</h1>
-                <aside class="typewr gray">{{ page.date | date: "%-d %B, %Y" }}</aside>
+              <h1 class="typewr">{{ page.title }}</h1>
+              <aside class="typewr gray">{{ page.date | date: "%-d %B, %Y" }}</aside>
 
-                {{ content }}
+              {{ content }}
 
-                <section id="read-more" class="gray">
+              <section id="read-more" class="gray">
                     {% for tag in page.tags %}
                     {% if tag == "blog"%}
                         {% assign posts = site.tags['blog'] | sort:"weight" %}
@@ -44,7 +41,7 @@
                   <a href="/blog">All Posts</a> |
                   <a href="#">Previous Post</a> -->
                 </div>
-                </section>
+              </section>
             </section>
 
 

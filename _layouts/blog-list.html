@@ -4,16 +4,15 @@
           <section id="blog-gutter"></section>
           <section id="posts">
             <a href="/blog">{% include logo.html %}</a>
-            <a id="home" href="/">
-              <img class="icon" src="{{site.baseurl}}/assets/back.svg">
-            </a>
-              {% for item in site.tags.blog %}
-                  <a class="blog-item" href="{{item.url}}">
-                    <h2 class="typewr">{{item.title}}</h2>
-                    <aside class="typewr gray">{{ item.date | date: "%-d %B, %Y" }}</aside>
-                    <p>{{ item.excerpt }}</p>
-                  </a>
-              {% endfor %}
+            <h1 class="typewr">Process Blog</h1>
+            <!-- <aside>A Process Blog for Abducted</aside> -->
+            {% for item in site.tags.blog %}
+                <a class="blog-item" href="{{item.url}}">
+                  <h2 class="typewr">{{item.title}}</h2>
+                  <aside class="typewr gray">{{ item.date | date: "%-d %B, %Y" }}</aside>
+                  <p>{{ item.excerpt }}</p>
+                </a>
+            {% endfor %}
 
           </section>
 

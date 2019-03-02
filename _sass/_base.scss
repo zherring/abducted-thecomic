@@ -20,6 +20,9 @@ body {
   color: #fff;
   text-align: center;
   line-height: 1.25rem;
+
+  letter-spacing: -.00278rem;
+  -moz-osx-font-smoothing: grayscale;
   }
 
 a, a:visited, a:active { color: #666; text-decoration: none; }
@@ -46,7 +49,15 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: left;
+  :after {
+    content: " | "
+  }
   a { text-decoration: none; }
+  .menu-ico {
+    width: 2ch;
+    margin-top: -1ch;
+    display: none;
+  }
 }
 
 

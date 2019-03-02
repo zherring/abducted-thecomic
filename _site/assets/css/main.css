@@ -27,7 +27,9 @@ body {
   font-family: verdana, helvetica, arial, san-sans-serif;
   color: #fff;
   text-align: center;
-  line-height: 1.25rem; }
+  line-height: 1.25rem;
+  letter-spacing: -.00278rem;
+  -moz-osx-font-smoothing: grayscale; }
 
 a, a:visited, a:active {
   color: #666;
@@ -69,8 +71,14 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: left; }
+  footer :after {
+    content: " | "; }
   footer a {
     text-decoration: none; }
+  footer .menu-ico {
+    width: 2ch;
+    margin-top: -1ch;
+    display: none; }
 
 /*
  * Remove text-shadow in selection highlight:
@@ -764,22 +772,6 @@ nav {
   .icon:hover, .icon:active {
     opacity: 1; }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* Styles */
-  #home {
-    display: block; }
-
-  main.chapter {
-    height: inherit;
-    flex: auto;
-    padding: 0;
-    overflow-y: inherit;
-    flex-direction: column-reverse; }
-    main.chapter #right-col {
-      height: inherit;
-      flex: auto;
-      padding: 0;
-      overflow-y: inherit; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
   #home {
@@ -799,7 +791,6 @@ nav {
       padding: 0;
       overflow-y: inherit; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* Styles */
   img#splash-logo {
     width: 100%; }
 
@@ -827,11 +818,86 @@ nav {
     text-align: center; }
 
   footer {
-    padding: .7rem;
-    font-size: .8rem; } }
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+    text-align: center; }
+    footer :after {
+      content: ""; }
+    footer a {
+      width: 20%;
+      opacity: .75;
+      font-size: .85rem;
+      font-family: Verdana, helvetica, arial, san-serif; }
+      footer a:active, footer a.active {
+        opactiy: 1; }
+    footer .menu-ico {
+      display: block;
+      height: 1.8rem;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0.2rem; }
+
+  /* Chapters  */
+  #home {
+    display: block; }
+
+  main.chapter {
+    height: inherit;
+    flex: auto;
+    padding: 0;
+    overflow-y: inherit;
+    flex-direction: column-reverse; }
+    main.chapter #right-col {
+      height: inherit;
+      flex: auto;
+      padding: 0;
+      overflow-y: inherit; } }
+@media only screen and (min-width: 321px) {
+  img#splash-logo {
+    width: 100%; }
+
+  .splash-ch-thumb {
+    align-items: center; }
+
+  .splash-ch-thumb h3 {
+    text-align: center; }
+
+  #main-splash {
+    min-height: 60vh;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-bottom: 0; }
+
+  .chapter-item {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  #front-col .splash-ch-description {
+    text-align: center;
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center; }
+
+  #home {
+    display: block; }
+
+  main.chapter {
+    height: inherit;
+    flex: auto;
+    padding: 0;
+    overflow-y: inherit;
+    flex-direction: column-reverse; }
+    main.chapter #right-col {
+      height: inherit;
+      flex: auto;
+      padding: 0;
+      overflow-y: inherit; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* Styles */
-  /* Styles */
   img#splash-logo {
     width: 100%; }
 
@@ -859,8 +925,28 @@ nav {
     text-align: center; }
 
   footer {
-    padding: .7rem;
-    font-size: .8rem; } }
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+    text-align: center; }
+    footer :after {
+      content: ""; }
+    footer a {
+      width: 20%;
+      opacity: .75;
+      font-size: .85rem;
+      font-family: Verdana, helvetica, arial, san-serif; }
+      footer a:active, footer a.active {
+        opactiy: 1; }
+    footer .menu-ico {
+      display: block;
+      height: 1.8rem;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0.2rem; } }
 #blog-main {
   width: 100%;
   text-align: left;
@@ -871,6 +957,8 @@ nav {
   display: block;
   padding-left: 1.5rem;
   margin-bottom: 3rem; }
+  .blog-item:hover {
+    border-left: 4px solid #E25839; }
   .blog-item aside {
     margin-top: -1rem;
     font-size: .9rem;
