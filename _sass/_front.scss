@@ -30,6 +30,8 @@ img#splash-logo { width: 70%; max-width: 900px; margin-bottom: 2rem;}
   margin-bottom: 3rem;
   justify-content: flex-start;
   width: 40%;
+  justify-content: top;
+  align-items: center;
 }
 
 .splash-ch-thumb {
@@ -80,7 +82,7 @@ img#splash-logo { width: 70%; max-width: 900px; margin-bottom: 2rem;}
 }
 
 #front-col .splash-ch-description {
-  text-align: left;
+  text-align: center;
   padding: 1.5rem;
   width: 24rem;
 

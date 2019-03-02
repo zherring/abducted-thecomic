@@ -623,7 +623,9 @@ img#splash-logo {
 .chapter-item {
   margin-bottom: 3rem;
   justify-content: flex-start;
-  width: 40%; }
+  width: 40%;
+  justify-content: top;
+  align-items: center; }
 
 .splash-ch-thumb {
   height: 13rem;
@@ -671,7 +673,7 @@ img#splash-logo {
     color: #fff; }
 
 #front-col .splash-ch-description {
-  text-align: left;
+  text-align: center;
   padding: 1.5rem;
   width: 24rem; }
   #front-col .splash-ch-description .spotify {
@@ -790,7 +792,7 @@ nav {
       flex: auto;
       padding: 0;
       overflow-y: inherit; } }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   img#splash-logo {
     width: 100%; }
 
@@ -842,47 +844,6 @@ nav {
       margin-bottom: 0.2rem; }
 
   /* Chapters  */
-  #home {
-    display: block; }
-
-  main.chapter {
-    height: inherit;
-    flex: auto;
-    padding: 0;
-    overflow-y: inherit;
-    flex-direction: column-reverse; }
-    main.chapter #right-col {
-      height: inherit;
-      flex: auto;
-      padding: 0;
-      overflow-y: inherit; } }
-@media only screen and (min-width: 321px) {
-  img#splash-logo {
-    width: 100%; }
-
-  .splash-ch-thumb {
-    align-items: center; }
-
-  .splash-ch-thumb h3 {
-    text-align: center; }
-
-  #main-splash {
-    min-height: 60vh;
-    justify-content: space-evenly;
-    padding: 1rem;
-    margin-bottom: 0; }
-
-  .chapter-item {
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center; }
-
-  #front-col .splash-ch-description {
-    text-align: center;
-    padding: 1.5rem;
-    width: 100%;
-    text-align: center; }
-
   #home {
     display: block; }
 

@@ -11,31 +11,27 @@
              <img alt="Scroll Arrow " src="{{site.baseurl}}/assets/scroll-arrow.svg" id="scroll-arrow">
           </div>
 
-          <div class="fl fl-row">
-            <div id="front-col">
-
+          <div id="front-col" class="fl fl-row">
               {% for item in site.tags.issue reversed %}
-              <a href="{{item.url}}">
-                <div class="fl fl-row chapter-item">
-                    <div class="splash-ch-thumb" style="background-image: url('{{site.baseurl}}/assets{{item.permalink}}cover.jpg')">
-                      <aside class="typewr">{{item.aside}}</aside>
-                      <h3 class="typewr">{{item.title}}</h3>
+                <a href="{{item.url}}">
+                  <div class="fl fl-col chapter-item">
+                      <div class="splash-ch-thumb" style="background-image: url('{{site.baseurl}}/assets{{item.permalink}}cover.jpg')">
+                        <aside class="typewr">{{item.aside}}</aside>
+                        <h3 class="typewr">{{item.title}}</h3>
+                      </div>
+                      <div class="splash-ch-description">
+                        <p class="typewr">{{ item.description }}</p>
+                        <p>
+                          <a class="spotify-link" href="https://open.spotify.com/user/{{item.spotify}}" target="_blank">
+                            {% include spotify.svg %}
+                            Spotify Mixtape
+                          </a>
+                        </p>
                     </div>
-                    <div class="splash-ch-description">
-                      <p class="typewr">{{ item.description }}</p>
-                      <p>
-                        <a class="spotify-link" href="https://open.spotify.com/user/{{item.spotify}}" target="_blank">
-                          {% include spotify.svg %}
-                        Spotify Mixtape
-                        </a>
-                      </p>
-                    </div>
-                  </a>
-                </div>
-
+                  </div>
+                </a>
               {% endfor %}
             </div>
-          </div>
         </main>
 
   {% include footer.html %}

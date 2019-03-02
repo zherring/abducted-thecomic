@@ -1,6 +1,6 @@
 /// FRONT
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation: portrait) {
     img#splash-logo {
     width: 100%;
      }
@@ -82,53 +82,53 @@
 
 
 // Phones (Portrait)
-@media only screen and (min-width : 321px) {
+@media only screen and (min-width : 321px) and (orientation: landscape){
 
-  img#splash-logo {
-  width: 100%;
-   }
-  .splash-ch-thumb {
-    align-items: center;
-  }
-   .splash-ch-thumb h3 {
-   text-align: center;
-   }
-  #main-splash {
-    min-height: 60vh;
-    justify-content: space-evenly;
-    padding: 1rem;
-    margin-bottom: 0;
-  }
-  .chapter-item {
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  #front-col .splash-ch-description {
-    text-align: center;
-    padding: 1.5rem;
-    width: 100%;
-    text-align: center;
-  }
-
-// Chapters
-  #home {
-  display: block;
-  }
-
-  main.chapter {
-    height: inherit;
-    flex: auto;
-    padding: 0;
-    overflow-y: inherit;
-    flex-direction: column-reverse;
-  #right-col {
-    height: inherit;
-    flex: auto;
-    padding: 0;
-    overflow-y: inherit;
-    }
-  }
+//   img#splash-logo {
+//   width: 100%;
+//    }
+//   .splash-ch-thumb {
+//     align-items: center;
+//   }
+//    .splash-ch-thumb h3 {
+//    text-align: center;
+//    }
+//   #main-splash {
+//     min-height: 60vh;
+//     justify-content: space-evenly;
+//     padding: 1rem;
+//     margin-bottom: 0;
+//   }
+//   .chapter-item {
+//     width: 50%;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//   }
+//   #front-col .splash-ch-description {
+//     text-align: center;
+//     padding: 1.5rem;
+//     width: 100%;
+//     text-align: center;
+//   }
+//
+// // Chapters
+//   #home {
+//   display: block;
+//   }
+//
+//   main.chapter {
+//     height: inherit;
+//     flex: auto;
+//     padding: 0;
+//     overflow-y: inherit;
+//     flex-direction: column-reverse;
+//   #right-col {
+//     height: inherit;
+//     flex: auto;
+//     padding: 0;
+//     overflow-y: inherit;
+//     }
+//   }
 }
 
 // Tablets
