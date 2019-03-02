@@ -36,6 +36,9 @@ a:hover { color: #FFF }
     font-family: 'Special Elite', san-serif;
   }
 
+h1, h2, h3 {
+  line-height: 1.2em;
+}
 .ch { width: 100% }
 .ch > div { width: 50%; }
 .fl { display: flex; justify-content: center;}

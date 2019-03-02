@@ -48,6 +48,9 @@ a:hover {
 .typewr {
   font-family: 'Special Elite', san-serif; }
 
+h1, h2, h3 {
+  line-height: 1.2em; }
+
 .ch {
   width: 100%; }
 
