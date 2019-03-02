@@ -27,9 +27,11 @@ img#splash-logo { width: 70%; max-width: 900px; margin-bottom: 2rem;}
 .splash-ch-thumb, .splash-ch-description { text-align: left; }
 
 .chapter-item {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   justify-content: flex-start;
-  width: 45%;
+  width: 40%;
+  justify-content: top;
+  align-items: center;
 }
 
 .splash-ch-thumb {
@@ -60,7 +62,7 @@ img#splash-logo { width: 70%; max-width: 900px; margin-bottom: 2rem;}
   flex-wrap: wrap;
   padding: 2em;
   padding-bottom: 3em;
-
+  justify-content: center;
   p {
     // font-size: 1em;
     color: #b9b9b9;
@@ -80,8 +82,8 @@ img#splash-logo { width: 70%; max-width: 900px; margin-bottom: 2rem;}
 }
 
 #front-col .splash-ch-description {
-  text-align: left;
-  padding: 3.5rem;
+  text-align: center;
+  padding: 1.5rem;
   width: 24rem;
 
 .spotify {
@@ -110,84 +112,4 @@ img#splash-logo { width: 70%; max-width: 900px; margin-bottom: 2rem;}
 @keyframes floating {
   0% {transform: translatey(.8em); opacity: .5;}
   to {transform: translatey(1em); opacity: 1;}
-  }
-
-
-
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  /* Styles */
-    img#splash-logo {
-    width: 100%;
-     }
-
-
-    .splash-ch-thumb {
-      align-items: center;
-    }
-     .splash-ch-thumb h3 {
-     text-align: center;
-     }
-    #main-splash {
-      min-height: 60vh;
-      justify-content: space-evenly;
-      padding: 1rem;
-      margin-bottom: 0;
-    }
-    .chapter-item {
-      width: 100%;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    #front-col .splash-ch-description {
-      text-align: center;
-      padding: 1.5rem;
-      width: 100%;
-      text-align: center;
-    }
-
-
-
-    footer {
-    padding: .7rem;
-    font-size: .8rem;
-    }
-  }
-
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-
-  /* Styles */
-  /* Styles */
-    img#splash-logo {
-    width: 100%;
-     }
-
-
-    .splash-ch-thumb {
-      align-items: center;
-    }
-     .splash-ch-thumb h3 {
-     text-align: center;
-     }
-    #main-splash {
-      min-height: 60vh;
-      justify-content: space-evenly;
-      padding: 1rem;
-      margin-bottom: 0;
-    }
-    .chapter-item {
-      width: 100%;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    #front-col .splash-ch-description {
-      text-align: center;
-      padding: 1.5rem;
-      width: 100%;
-      text-align: center;
-    }
-
-    footer {
-      padding: .7rem;
-      font-size: .8rem;
-      }
   }

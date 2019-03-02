@@ -1,0 +1,24 @@
+{% include header.html %}
+  <main id="blog-main" class="fl fl-row">
+
+          <section id="blog-gutter"></section>
+          <section id="posts">
+            <a href="/blog">{% include logo.html %}</a>
+            <h1 class="typewr">Process Blog</h1>
+            <!-- <aside>A Process Blog for Abducted</aside> -->
+            {% for item in site.tags.blog %}
+                <a class="blog-item" href="{{item.url}}">
+                  <h2 class="typewr">{{item.title}}</h2>
+                  <aside class="typewr gray">{{ item.date | date: "%-d %B, %Y" }}</aside>
+                  <p>{{ item.excerpt }}</p>
+                </a>
+            {% endfor %}
+
+          </section>
+
+
+    </main>
+
+  {% include footer.html %}
+
+  </html>

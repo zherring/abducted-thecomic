@@ -1,0 +1,52 @@
+{% include header.html %}
+<main id="blog-main" class="fl fl-row">
+      <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+
+            <section id="blog-gutter" class="interior"></section>
+            <section id="post">
+              <a href="/blog">{% include logo.html %}</a>
+              <h1 class="typewr">{{ page.title }}</h1>
+              <aside class="typewr gray">{{ page.date | date: "%-d %B, %Y" }}</aside>
+
+              {{ content }}
+
+              <section id="read-more" class="gray">
+                    {% for tag in page.tags %}
+                    {% if tag == "blog"%}
+                        {% assign posts = site.tags['blog'] | sort:"weight" %}
+                        {% for post in posts %}
+                          {% if post.url == page.url %}
+                            {% assign last_inx = forloop.index0 | minus:1 %}
+                            {% if forloop.first == false %}
+                              <a class="typewr" href="{{ BASE_PATH }}{{ posts[last_inx].url }}" title="{{ posts[last_inx].title }}">&larr; Previous Post</a></li> |
+                            {% else %}
+                              &nbsp;
+                            {% endif %}
+                              <a class="typewr" href="/blog">All Posts</a>
+                            {% if forloop.last == false %}
+                              {% assign next_inx = forloop.index0 | plus:1 %}
+                              | <a class="typewr" href="{{ BASE_PATH }}{{ posts[next_inx].url }}" title="{{ posts[next_inx].title }}">Next Post &rarr;</a>
+                            {% else %}
+                              &nbsp;
+                            {% endif %}
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  {% endfor %}
+
+
+
+                  <!-- <a href="#">Next Post</a> |
+                  <a href="/blog">All Posts</a> |
+                  <a href="#">Previous Post</a> -->
+                </div>
+              </section>
+            </section>
+
+
+        </main>
+
+  {% include footer.html %}
+
+  </html>
