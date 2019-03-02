@@ -6,7 +6,7 @@
             <section id="post">
               <a href="/blog">{% include logo.html %}</a>
               <h1 class="typewr">{{ page.title }}</h1>
-              <aside class="typewr gray">{{ page.date | date: "%-d %B, %Y" }}</aside>
+              <aside class="typewr gray">{% if page.author %}By {{ page.author }} on {% endif %}{{ page.date | date: "%-d %B, %Y" }}</aside>
 
               {{ content }}
 
