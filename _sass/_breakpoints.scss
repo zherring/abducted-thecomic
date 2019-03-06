@@ -1,15 +1,197 @@
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-/* Styles */
-  #main-splash {
-    height: 70vh;
-    justify-content: space-evenly;
-    padding: 1rem;
+/// FRONT
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation: portrait) {
+    img#splash-logo {
+    width: 100%;
+     }
+    .splash-ch-thumb {
+      align-items: center;
+    }
+     .splash-ch-thumb h3 {
+     text-align: center;
+     }
+    #main-splash {
+      min-height: 60vh;
+      justify-content: space-evenly;
+      padding: 1rem;
+      margin-bottom: 0;
+    }
+    .chapter-item {
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #front-col .splash-ch-description {
+      text-align: center;
+      padding: 1.5rem;
+      width: 100%;
+      text-align: center;
+    }
+
+    footer {
+      display: flex;
+      flex-direction: row;
+      height: 5rem;
+      justify-content: space-around;
+      align-items: center;
+      padding: .5rem;
+      text-align: center;
+
+      :after {
+        content: "";
+      }
+
+      a {
+        width: 20%;
+        opacity: .75;
+        font-size: .85rem;
+        font-family: Verdana, helvetica, arial, san-serif;
+        &:active, &.active {
+          opactiy: 1;
+        }
+      }
+      .menu-ico {
+        display: block;
+        height: 1.8rem;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0.2rem;
+      }
+    }
+
+    /* Chapters  */
+
+    #home {
+    display: block;
+    }
+
+    main.chapter {
+      height: inherit;
+      flex: auto;
+      padding: 0;
+      overflow-y: inherit;
+      flex-direction: column-reverse;
+    #right-col {
+      height: inherit;
+      flex: auto;
+      padding: 0;
+      overflow-y: inherit;
+      }
+    }
   }
 
+
+// Phones (Portrait)
+@media only screen and (min-width : 321px) and (orientation: landscape){
+
+//   img#splash-logo {
+//   width: 100%;
+//    }
+//   .splash-ch-thumb {
+//     align-items: center;
+//   }
+//    .splash-ch-thumb h3 {
+//    text-align: center;
+//    }
+//   #main-splash {
+//     min-height: 60vh;
+//     justify-content: space-evenly;
+//     padding: 1rem;
+//     margin-bottom: 0;
+//   }
+//   .chapter-item {
+//     width: 50%;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//   }
+//   #front-col .splash-ch-description {
+//     text-align: center;
+//     padding: 1.5rem;
+//     width: 100%;
+//     text-align: center;
+//   }
+//
+// // Chapters
+//   #home {
+//   display: block;
+//   }
+//
+//   main.chapter {
+//     height: inherit;
+//     flex: auto;
+//     padding: 0;
+//     overflow-y: inherit;
+//     flex-direction: column-reverse;
+//   #right-col {
+//     height: inherit;
+//     flex: auto;
+//     padding: 0;
+//     overflow-y: inherit;
+//     }
+//   }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+// Tablets
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
-/* Styles */
+    img#splash-logo {
+    width: 100%;
+     }
 
-}
+
+    .splash-ch-thumb {
+      align-items: center;
+    }
+     .splash-ch-thumb h3 {
+     text-align: center;
+     }
+    #main-splash {
+      min-height: 60vh;
+      justify-content: space-evenly;
+      padding: 1rem;
+      margin-bottom: 0;
+    }
+    .chapter-item {
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #front-col .splash-ch-description {
+      text-align: center;
+      padding: 1.5rem;
+      width: 100%;
+      text-align: center;
+    }
+
+      footer {
+        display: flex;
+        flex-direction: row;
+        height: 5rem;
+        justify-content: space-around;
+        align-items: center;
+        padding: .5rem;
+        text-align: center;
+
+        :after {
+          content: "";
+        }
+
+        a {
+          width: 20%;
+          opacity: .75;
+          font-size: .85rem;
+          font-family: Verdana, helvetica, arial, san-serif;
+          &:active, &.active {
+            opactiy: 1;
+          }
+        }
+        .menu-ico {
+          display: block;
+          height: 1.8rem;
+          width: 100%;
+          margin-top: 0;
+          margin-bottom: 0.2rem;
+        }
+      }
+
+  }

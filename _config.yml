@@ -28,6 +28,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+excerpt_separator: <!--more-->
 category-list: [chapters]
 
 sass:

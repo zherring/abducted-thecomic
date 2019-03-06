@@ -24,9 +24,13 @@ html {
 
 body {
   background: #000;
-  font-family: helvetica, arial, san-sans-serif;
+  font-family: verdana, helvetica, arial, san-sans-serif;
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  line-height: 1.25rem;
+  color: #e6e6e6;
+  letter-spacing: -.00278rem;
+  -moz-osx-font-smoothing: grayscale; }
 
 a, a:visited, a:active {
   color: #666;
@@ -43,6 +47,9 @@ a:hover {
 
 .typewr {
   font-family: 'Special Elite', san-serif; }
+
+h1, h2, h3 {
+  line-height: 1.2em; }
 
 .ch {
   width: 100%; }
@@ -68,8 +75,14 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: left; }
+  footer :after {
+    content: " | "; }
   footer a {
     text-decoration: none; }
+  footer .menu-ico {
+    width: 2ch;
+    margin-top: -1ch;
+    display: none; }
 
 /*
  * Remove text-shadow in selection highlight:
@@ -586,7 +599,7 @@ main {
   background-attachment: fixed; }
 
 #main-splash {
-  min-height: 100vh;
+  min-height: 87vh;
   margin-bottom: 3rem;
   background-image: url(/assets/bg-sharp.svg);
   background-size: cover;
@@ -612,9 +625,11 @@ img#splash-logo {
   text-align: left; }
 
 .chapter-item {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   justify-content: flex-start;
-  width: 45%; }
+  width: 40%;
+  justify-content: top;
+  align-items: center; }
 
 .splash-ch-thumb {
   height: 13rem;
@@ -647,7 +662,8 @@ img#splash-logo {
   flex-direction: row;
   flex-wrap: wrap;
   padding: 2em;
-  padding-bottom: 3em; }
+  padding-bottom: 3em;
+  justify-content: center; }
   #front-col p {
     color: #b9b9b9;
     font-weight: lighter; }
@@ -661,8 +677,8 @@ img#splash-logo {
     color: #fff; }
 
 #front-col .splash-ch-description {
-  text-align: left;
-  padding: 3.5rem;
+  text-align: center;
+  padding: 1.5rem;
   width: 24rem; }
   #front-col .splash-ch-description .spotify {
     width: 1em;
@@ -692,69 +708,6 @@ img#splash-logo {
   to {
     transform: translatey(1em);
     opacity: 1; } }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* Styles */
-  img#splash-logo {
-    width: 100%; }
-
-  .splash-ch-thumb {
-    align-items: center; }
-
-  .splash-ch-thumb h3 {
-    text-align: center; }
-
-  #main-splash {
-    min-height: 60vh;
-    justify-content: space-evenly;
-    padding: 1rem;
-    margin-bottom: 0; }
-
-  .chapter-item {
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center; }
-
-  #front-col .splash-ch-description {
-    text-align: center;
-    padding: 1.5rem;
-    width: 100%;
-    text-align: center; }
-
-  footer {
-    padding: .7rem;
-    font-size: .8rem; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* Styles */
-  /* Styles */
-  img#splash-logo {
-    width: 100%; }
-
-  .splash-ch-thumb {
-    align-items: center; }
-
-  .splash-ch-thumb h3 {
-    text-align: center; }
-
-  #main-splash {
-    min-height: 60vh;
-    justify-content: space-evenly;
-    padding: 1rem;
-    margin-bottom: 0; }
-
-  .chapter-item {
-    width: 100%;
-    flex-wrap: wrap;
-    justify-content: center; }
-
-  #front-col .splash-ch-description {
-    text-align: center;
-    padding: 1.5rem;
-    width: 100%;
-    text-align: center; }
-
-  footer {
-    padding: .7rem;
-    font-size: .8rem; } }
 #nav-container, nav {
   width: 16.75rem; }
 
@@ -825,22 +778,6 @@ nav {
   .icon:hover, .icon:active {
     opacity: 1; }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* Styles */
-  #home {
-    display: block; }
-
-  main.chapter {
-    height: inherit;
-    flex: auto;
-    padding: 0;
-    overflow-y: inherit;
-    flex-direction: column-reverse; }
-    main.chapter #right-col {
-      height: inherit;
-      flex: auto;
-      padding: 0;
-      overflow-y: inherit; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
   #home {
@@ -859,6 +796,161 @@ nav {
       flex: auto;
       padding: 0;
       overflow-y: inherit; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  img#splash-logo {
+    width: 100%; }
+
+  .splash-ch-thumb {
+    align-items: center; }
+
+  .splash-ch-thumb h3 {
+    text-align: center; }
+
+  #main-splash {
+    min-height: 60vh;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-bottom: 0; }
+
+  .chapter-item {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  #front-col .splash-ch-description {
+    text-align: center;
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center; }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+    text-align: center; }
+    footer :after {
+      content: ""; }
+    footer a {
+      width: 20%;
+      opacity: .75;
+      font-size: .85rem;
+      font-family: Verdana, helvetica, arial, san-serif; }
+      footer a:active, footer a.active {
+        opactiy: 1; }
+    footer .menu-ico {
+      display: block;
+      height: 1.8rem;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0.2rem; }
+
+  /* Chapters  */
+  #home {
+    display: block; }
+
+  main.chapter {
+    height: inherit;
+    flex: auto;
+    padding: 0;
+    overflow-y: inherit;
+    flex-direction: column-reverse; }
+    main.chapter #right-col {
+      height: inherit;
+      flex: auto;
+      padding: 0;
+      overflow-y: inherit; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  img#splash-logo {
+    width: 100%; }
+
+  .splash-ch-thumb {
+    align-items: center; }
+
+  .splash-ch-thumb h3 {
+    text-align: center; }
+
+  #main-splash {
+    min-height: 60vh;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-bottom: 0; }
+
+  .chapter-item {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  #front-col .splash-ch-description {
+    text-align: center;
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center; }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+    text-align: center; }
+    footer :after {
+      content: ""; }
+    footer a {
+      width: 20%;
+      opacity: .75;
+      font-size: .85rem;
+      font-family: Verdana, helvetica, arial, san-serif; }
+      footer a:active, footer a.active {
+        opactiy: 1; }
+    footer .menu-ico {
+      display: block;
+      height: 1.8rem;
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0.2rem; } }
+#blog-main {
+  width: 100%;
+  text-align: left;
+  justify-content: left; }
+
+.blog-item {
+  border-left: 4px solid #343434;
+  display: block;
+  padding-left: 1.5rem;
+  margin-bottom: 3rem; }
+  .blog-item:hover {
+    border-left: 4px solid #E25839; }
+  .blog-item aside {
+    margin-top: -1rem;
+    font-size: .9rem;
+    color: gray; }
+
+#blog-gutter {
+  height: 100vh;
+  width: 30%;
+  max-width: 19rem;
+  background: url(/assets/blog-gutter.jpg);
+  background-size: cover;
+  background-position: top center; }
+  #blog-gutter.interior {
+    max-width: 3.5rem; }
+
+#posts, #post {
+  margin: 3rem;
+  max-width: 50rem; }
+  #posts #nav-logo, #post #nav-logo {
+    width: 11rem;
+    margin-bottom: 1.5rem; }
+
+#read-more a {
+  color: #8f8f8f; }
+#read-more:hover {
+  opacity: 1; }
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
