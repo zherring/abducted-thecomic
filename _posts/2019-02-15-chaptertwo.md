@@ -29,5 +29,3 @@ tags: issue
 <img data-src="{{site.baseurl}}/assets/chapter-two/p20.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-two/p21.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-two/p22.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-two/p23.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-two/p24.jpg" class="lazyload" />
