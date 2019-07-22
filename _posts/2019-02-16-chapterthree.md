@@ -8,4 +8,6 @@ description: Coming Summer, 2019
 tags: issue
 ---
 
-_Releasing July 31st, 2019_
+Sgt. Troy Karrlson gets back to work, Claire meets her captors and Doc wakes up.
+
+<em>Releasing July 31st, 2019</em>
