@@ -8,4 +8,4 @@ description: Coming Summer, 2019
 tags: issue
 ---
 
-_Coming Summer, 2019_
+_Releasing July 31st, 2019_
