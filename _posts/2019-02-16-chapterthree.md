@@ -9,9 +9,8 @@ tags: issue
 ---
 
 <em>Coming July 31st, 2019</em>
-<img src="/assets/chapter-two/p1.jpg" />
-<img data-src="{{site.baseurl}}/assets/chapter-three/p1.jpg" class="lazyload" />
-<!-- <img data-src="{{site.baseurl}}/assets/chapter-two/p2.jpg" class="lazyload" />
+<!-- <img data-src="{{site.baseurl}}/assets/chapter-three/p1.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-three/p2.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p3.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p4.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p5.jpg" class="lazyload" />
