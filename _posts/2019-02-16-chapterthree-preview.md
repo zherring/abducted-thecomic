@@ -9,7 +9,7 @@ tags: preview
 exclude_rss: true
 ---
 
-<h2 class="typewr">Special Issue Preview</h2>
+<h2 class="typewr">Special Preview Issue</h2>
 Wanna see more of these? Subscribe to [the mailing list](http://www.eepurl.com/gwLQrv) to keep them coming.
 
 <!-- <em>Coming July 31st, 2019</em> -->
