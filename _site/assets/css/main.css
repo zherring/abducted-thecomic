@@ -982,7 +982,8 @@ nav {
   border-bottom: #343434; }
 
 #post img {
-  display: block; }
+  display: block;
+  max-width: 100%; }
 
 /*
  * Remove text-shadow in selection highlight:
