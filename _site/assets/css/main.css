@@ -90,9 +90,6 @@ footer {
 ul li {
   margin: 1rem 0; }
 
-img {
-  display: block; }
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -983,6 +980,9 @@ nav {
 
 #post a:hover {
   border-bottom: #343434; }
+
+#post img {
+  display: block; }
 
 /*
  * Remove text-shadow in selection highlight:
