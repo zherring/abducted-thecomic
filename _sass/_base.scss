@@ -19,7 +19,7 @@ body {
   font-family: verdana, helvetica, arial, san-sans-serif;
   color: #fff;
   text-align: center;
-  line-height: 1.25rem;
+  line-height: 1.5rem;
   color: #e6e6e6;
 
   letter-spacing: -.00278rem;
@@ -39,6 +39,11 @@ a:hover { color: #FFF }
 h1, h2, h3 {
   line-height: 1.2em;
 }
+
+h1, h2 {
+  font-weight: normal;
+}
+
 .ch { width: 100% }
 .ch > div { width: 50%; }
 .fl { display: flex; justify-content: center;}
@@ -64,8 +69,15 @@ footer {
   }
 }
 
+ul {
+  li {
+    margin: 1rem 0;
+  }
+}
 
-
+img {
+  display: block;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

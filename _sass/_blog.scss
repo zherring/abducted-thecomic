@@ -56,3 +56,11 @@
 
   &:hover { opacity: 1;}
 }
+
+#post a, #post a:visited {
+  border-bottom: 2px solid #E25839;
+}
+
+#post a:hover {
+  border-bottom: #343434;
+}
