@@ -1,12 +1,10 @@
 ---
 layout: blog-post
-title: How to Find an Artist for your Indie Comic
-permalink: /blog/how-to-artist-indie-comic/
+title: Tools, Ideas, and The Fools Who Wait For Them
+permalink: /blog/tools-ideas-fools-who-wait/
 tags: blog
 
 ---
-
-# Tools, Ideas, and The Fools Who Wait For Them
 
 > It's not in the Draftsmanship. It's in the man. Like I say, a tool is dead. A brush is a dead object. It's in the man. If you want to do it, do it." - Jack Kirby
 
