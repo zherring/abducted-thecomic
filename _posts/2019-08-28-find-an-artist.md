@@ -8,9 +8,10 @@ tags: blog
 
 I wouldn't classify anything I've done to this point to be successful, outside of finding some amazing collaborators to work with. In fact, *where* and *how* I found my collaborators has been the question I've gotten the most.
 
+<!--more-->
+
 I've been making comics, adding up all the time together, for maybe 15 years in fits and starts. For Abducted being the first limited series I've finished successfully, I have 15 other series pitches and note-bibles and maybe 15 short stories scattered across the internet. I've went down multiple roads, thinking about getting more of these things made, and as far as finding and artist goes, I think all of my attempts falls into three buckets.
 
-<!--more-->
 
 So how do you find an artist for your indie comic?
 
