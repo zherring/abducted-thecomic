@@ -8,4 +8,4 @@ description: Coming Winter, 2019/2020
 tags: issue
 ---
 
-_Coming Late Fall, 2019_
+Coming Spring, 2020_

@@ -8,4 +8,4 @@ description: Coming Fall, 2019
 tags: issue
 ---
 
-_Coming Mid-Fall, 2019_
+_Coming January, 2020_
