@@ -16,7 +16,11 @@ We're posting our favorite comics you should read on Thursdays, both as a way to
 
 I can't really do this book justice in a short 500 word blurb; suffice to say, this book has been *really* influential for me as far as the kinds of comics I'd like to make. It's a slow-burn "superhero" comic that barely has any super people (literally, maybe 5 pages in the entire 120 page run), and is more subdued-eastern-bloc-infused-noire-mystery than anything else.
 
-John Paul Leon is the perfect artist. Not for this, I mean, he's just, literally, the perfect artist and you should read everything he does. He is especially suited for bringing this world to life though, and his work sings with every page flip. Brett Lewis packs more research into a single issue than most modern comics pack into an entire run. The world he created here *feels* realer than 99% of the contemporary fiction these days (much less comics).
+John Paul Leon is the perfect artist. Not for this, I mean, he's just, literally, the perfect artist and you should read everything he does.
+
+![The Winter Men Original Art]({{site.baseurl}}/assets/blog/wintermen-3.jpg)
+
+He is especially suited for bringing this world to life though, and his work sings with every page flip. Brett Lewis packs more research into a single issue than most modern comics pack into an entire run. The world he created here *feels* realer than 99% of the contemporary fiction these days (much less comics).
 
 ![The Winter Men Scene 2]({{site.baseurl}}/assets/blog/wintermen-2.jpg)
 
@@ -28,5 +32,3 @@ It's <a href="https://www.amazon.com/Winter-Men-Brett-Lewis/dp/1401225268/ref=sr
 
 
 -- Zach
-
-![The Winter Men Original Art]({{site.baseurl}}/assets/blog/wintermen-3.jpg)
