@@ -7,5 +7,22 @@ spotify: zherring/playlist/2gcr9dBwt3x9CjjLDLZufy
 description: Coming January, 2020
 tags: issue
 ---
-
 _Coming January, 2020_
+<div style="display:none;">
+<img data-src="{{site.baseurl}}/assets/chapter-four/p1.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p2.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p3.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p4.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p5.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p6.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p7.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p8.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p9.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p10.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p11.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p12.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p13.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p14.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p15.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p16.jpg" class="lazyload" />
+</div>
