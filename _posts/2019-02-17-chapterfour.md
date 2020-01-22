@@ -4,11 +4,10 @@ title: Invisible Landscape
 aside: Chapter Four
 permalink: /chapter-four/
 spotify: zherring/playlist/2gcr9dBwt3x9CjjLDLZufy
-description: Coming January, 2020
+description: Doc goes looking for Claire while Claire and Jordan explore The Bend.
 tags: issue
 ---
-_Coming January, 2020_
-<div style="display:none;">
+
 <img data-src="{{site.baseurl}}/assets/chapter-four/p1.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-four/p2.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-four/p3.jpg" class="lazyload" />
@@ -25,4 +24,3 @@ _Coming January, 2020_
 <img data-src="{{site.baseurl}}/assets/chapter-four/p14.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-four/p15.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-four/p16.jpg" class="lazyload" />
-</div>
