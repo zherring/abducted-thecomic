@@ -7,11 +7,6 @@ spotify: zherring/playlist/6oSohGpSJBDRt6v6MYpS86
 description: Claire and Jordan hatch an escape plan. Doc finds answers.
 tags: issue
 ---
-
-_Coming Spring, 2020_
-
-<div style="display:none;">
-<!-- <em>Coming July 31st, 2019</em> -->
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-1.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-2.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-3.jpg" class="lazyload" />
@@ -36,4 +31,3 @@ _Coming Spring, 2020_
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-22.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-23.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-24.jpg" class="lazyload" />
-</div>
