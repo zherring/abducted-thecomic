@@ -18,9 +18,9 @@ tags: issue
 <img data-src="{{site.baseurl}}/assets/chapter-one/p7.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p8.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p9.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-one/p10.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-one/p11.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-one/p12.jpg" class="lazyload" />
+<!-- <img data-src="{{site.baseurl}}/assets/chapter-one/p10.jpg" class="lazyload" /> -->
+<!-- <img data-src="{{site.baseurl}}/assets/chapter-one/p11.jpg" class="lazyload" /> -->
+<!-- <img data-src="{{site.baseurl}}/assets/chapter-one/p12.jpg" class="lazyload" /> -->
 <img data-src="{{site.baseurl}}/assets/chapter-one/p13.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p14.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p15.jpg" class="lazyload" />
@@ -31,7 +31,7 @@ tags: issue
 <img data-src="{{site.baseurl}}/assets/chapter-one/p20.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p21.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p22.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-one/p23.jpg" class="lazyload" />
+<!-- <img data-src="{{site.baseurl}}/assets/chapter-one/p23.jpg" class="lazyload" /> -->
 <img data-src="{{site.baseurl}}/assets/chapter-one/p24.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p25.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p26.jpg" class="lazyload" />
