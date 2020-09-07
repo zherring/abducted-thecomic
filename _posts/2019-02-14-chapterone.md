@@ -34,9 +34,9 @@ tags: issue
 <!-- <img data-src="{{site.baseurl}}/assets/chapter-one/p23.jpg" class="lazyload" /> -->
 <img data-src="{{site.baseurl}}/assets/chapter-one/p24.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p25.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-one/p26.jpg" class="lazyload" />
+<!-- <img data-src="{{site.baseurl}}/assets/chapter-one/p26.jpg" class="lazyload" /> -->
 <img data-src="{{site.baseurl}}/assets/chapter-one/p27.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-one/p28.jpg" class="lazyload" />
+<!-- <img data-src="{{site.baseurl}}/assets/chapter-one/p28.jpg" class="lazyload" /> -->
 <img data-src="{{site.baseurl}}/assets/chapter-one/p29.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p30.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p31.jpg" class="lazyload" />
