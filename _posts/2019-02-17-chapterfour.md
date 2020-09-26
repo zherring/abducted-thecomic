@@ -3,7 +3,7 @@ layout: chapter
 title: Invisible Landscape
 aside: Chapter Four
 permalink: /chapter-four/
-spotify: zherring/playlist/2gcr9dBwt3x9CjjLDLZufy
+spotify: playlist/2gcr9dBwt3x9CjjLDLZufy
 description: Doc goes looking for Claire while Claire and Jordan explore The Bend.
 tags: issue
 ---

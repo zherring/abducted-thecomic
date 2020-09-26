@@ -3,7 +3,7 @@ layout: chapter
 title: No Surprises
 aside: Chapter Two
 permalink: /chapter-two/
-spotify: zherring/playlist/4JJQUguNH1IY2Po4OKMFHr
+spotify: playlist/4JJQUguNH1IY2Po4OKMFHr
 description: Claire wakes up at the wrong time and Doc reminisces about the past with friends.
 tags: issue
 ---

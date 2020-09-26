@@ -3,7 +3,7 @@ layout: chapter
 title: Super Unknown
 aside: Chapter Five
 permalink: /chapter-five/
-spotify: zherring/playlist/6oSohGpSJBDRt6v6MYpS86
+spotify: playlist/6oSohGpSJBDRt6v6MYpS86
 description: Claire and Jordan hatch an escape plan. Doc finds answers.
 tags: issue
 ---
