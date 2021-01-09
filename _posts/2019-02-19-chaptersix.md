@@ -4,8 +4,8 @@ title: Open Chords
 aside: Chapter Six
 permalink: /chapter-six/
 spotify: playlist/2k91L4sDkeFZeDKXSSCU6S
-description: Coming Fall, 2020
+description: Coming Winter, 2021
 tags: issue
 ---
 
-_Coming Fall, 2020_
+_Coming Winter, 2021_
