@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-bottom: 15rem;
 
   h1 { width: 100%; }
   }
@@ -17,3 +18,5 @@
       width: 10rem;
     }
   }
+
+.buy { background: red; padding: 1rem; }

@@ -992,7 +992,8 @@ nav {
 #store {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-bottom: 15rem; }
   #store h1 {
     width: 100%; }
 
@@ -1004,6 +1005,10 @@ nav {
   .item img {
     max-width: 100%;
     width: 10rem; }
+
+.buy {
+  background: red;
+  padding: 1rem; }
 
 /*
  * Remove text-shadow in selection highlight:
