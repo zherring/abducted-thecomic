@@ -110,7 +110,9 @@ mark {
   opacity: .7;
   transform: translateY(1em);
    animation: floating 1s linear 2s infinite alternate;
-   // animation-direction: alternate;
+   animation-direction: alternate;
+   width: 8rem;
+   margin: 0 auto;
   }
 
 @keyframes floating {
