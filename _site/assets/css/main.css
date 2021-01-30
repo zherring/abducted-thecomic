@@ -986,6 +986,22 @@ nav {
   max-width: 80vw;
   width: 28.75rem; }
 
+#store {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  #store h1 {
+    width: 100%; }
+
+.item {
+  text-align: left;
+  width: 50%;
+  display: flex;
+  flex-direction: row; }
+  .item img {
+    max-width: 100%;
+    width: 10rem; }
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
