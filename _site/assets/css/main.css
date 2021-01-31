@@ -1017,7 +1017,8 @@ nav {
 
 .buy {
   text-align: center;
-  background: red;
+  background: #E25839;
+  font-weight: bolder;
   padding: 1rem; }
 
 /*
