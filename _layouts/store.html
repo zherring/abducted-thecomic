@@ -1,7 +1,24 @@
 {% include header.html %}
 <div id="store">
   <h1 class="typewr">Store</h1>
-  <div class="item">
+
+  {% for item in site.tags.storeitem %}
+    <div class="item">
+      <div class="store-left-col">
+        <a href="{{item.store-link}}" target="_blank">
+          <img class="product-shot" src="{{item.img}}">
+        </a>
+      </div>
+      <div class="store-right-col">
+        <h2>Store Item: {{item.title}}</h2>
+        <p>{{item.description}} </p>
+        <a class="buy" href="{{item.store-link}}" target="_blank"> ${{item.price}} + S&H | Buy Now</a>
+      </div>
+    </div>
+  {% endfor %}
+
+
+  <!-- <div class="item">
     <a href="https://checkout.square.site/buy/CQJCO4RBWHNZ27IC6KXBHZM3">
     <img class="product-shot" src="{{site.baseurl}}/assets/store/comic-rack-4.jpg">
     <h2>Abducted: The Complete Series</h2>
@@ -18,9 +35,9 @@
       <p>$30 + S&H</p>
       <span class="buy">Buy Now</span>
     </a>
-  </div>
+  </div> -->
 
-  <div class="item">
+  <!-- <div class="item">
     <a href="https://checkout.square.site/buy/XMZBPJ5TV7GYNVEAM7UXFUMY">
     <img class="product-shot" src="{{site.baseurl}}/assets/store/comic-rack-4.jpg">
     <h2>Stickers</h2>
@@ -28,7 +45,8 @@
       <p>$5 + S&H</p>
       <span class="buy">Buy Now</span>
     </a>
-  </div>
+  </div> -->
+
 </div>
   {% include footer.html %}
 
