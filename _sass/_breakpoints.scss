@@ -19,6 +19,12 @@
 /// FRONT
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation: portrait) {
+
+    #store .item {
+      width: 100%;
+    }
+    
+    .mob-no { display: none; }
     img#splash-logo {
     width: 100%;
      }
@@ -39,7 +45,7 @@
       flex-wrap: wrap;
       justify-content: center;
     }
-    #front-col .splash-ch-description {
+    #update-col .splash-ch-description, #issues-col .splash-ch-description, #front-col .splash-ch-description {
       text-align: center;
       padding: 1.5rem;
       width: 100%;

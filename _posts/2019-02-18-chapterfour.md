@@ -1,8 +1,8 @@
 ---
 layout: chapter
 title: Super Unknown
-aside: Chapter Five
-permalink: /chapter-five/
+aside: Chapter Four
+permalink: /chapter-four/
 spotify: playlist/6oSohGpSJBDRt6v6MYpS86
 description: Claire and Jordan hatch an escape plan. Doc finds answers.
 tags: issue

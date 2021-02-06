@@ -5,7 +5,7 @@ aside: Chapter Four
 permalink: /chapter-four/
 spotify: playlist/2gcr9dBwt3x9CjjLDLZufy
 description: Doc goes looking for Claire while Claire and Jordan explore The Bend.
-tags: issue
+tags: 
 ---
 
 <img data-src="{{site.baseurl}}/assets/chapter-four/p1.jpg" class="lazyload" />

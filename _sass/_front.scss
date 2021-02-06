@@ -27,7 +27,7 @@ img#splash-logo { width: 70%; max-width: 900px; margin-bottom: 2rem;}
 .splash-ch-thumb, .splash-ch-description { text-align: left; }
 
 .chapter-item {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   justify-content: flex-start;
   width: 40%;
   justify-content: top;
@@ -60,13 +60,14 @@ mark {
   h3 { margin: 0; }
 }
 
-#front-col {
+#update-col, #issues-col, #front-col {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 2em;
   padding-bottom: 3em;
   justify-content: center;
+
   p {
     // font-size: 1em;
     color: #b9b9b9;
@@ -85,7 +86,7 @@ mark {
   strong { color: #fff; }
 }
 
-#front-col .splash-ch-description {
+#update-col .splash-ch-description , #issues-col .splash-ch-description , #front-col .splash-ch-description {
   text-align: center;
   padding: 1.5rem;
   width: 24rem;

@@ -631,7 +631,7 @@ img#splash-logo {
   text-align: left; }
 
 .chapter-item {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   justify-content: flex-start;
   width: 40%;
   justify-content: top;
@@ -667,17 +667,17 @@ mark {
   .splash-ch-thumb h3 {
     margin: 0; }
 
-#front-col {
+#update-col, #issues-col, #front-col {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 2em;
   padding-bottom: 3em;
   justify-content: center; }
-  #front-col p {
+  #update-col p, #issues-col p, #front-col p {
     color: #b9b9b9;
     font-weight: lighter; }
-    #front-col p img {
+    #update-col p img, #issues-col p img, #front-col p img {
       width: 100%;
       max-width: 980px; }
 
@@ -686,16 +686,16 @@ mark {
   .gray strong {
     color: #fff; }
 
-#front-col .splash-ch-description {
+#update-col .splash-ch-description, #issues-col .splash-ch-description, #front-col .splash-ch-description {
   text-align: center;
   padding: 1.5rem;
   width: 24rem; }
-  #front-col .splash-ch-description .spotify {
+  #update-col .splash-ch-description .spotify, #issues-col .splash-ch-description .spotify, #front-col .splash-ch-description .spotify {
     width: 1em;
     margin-top: -0.2rem; }
-    #front-col .splash-ch-description .spotify path {
+    #update-col .splash-ch-description .spotify path, #issues-col .splash-ch-description .spotify path, #front-col .splash-ch-description .spotify path {
       fill: #666; }
-      #front-col .splash-ch-description .spotify path:hover {
+      #update-col .splash-ch-description .spotify path:hover, #issues-col .splash-ch-description .spotify path:hover, #front-col .splash-ch-description .spotify path:hover {
         fill: #FFF; }
 
 .spotify-link {
@@ -824,6 +824,12 @@ nav {
   position: absolute; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  #store .item {
+    width: 100%; }
+
+  .mob-no {
+    display: none; }
+
   img#splash-logo {
     width: 100%; }
 
@@ -844,7 +850,7 @@ nav {
     flex-wrap: wrap;
     justify-content: center; }
 
-  #front-col .splash-ch-description {
+  #update-col .splash-ch-description, #issues-col .splash-ch-description, #front-col .splash-ch-description {
     text-align: center;
     padding: 1.5rem;
     width: 100%;
