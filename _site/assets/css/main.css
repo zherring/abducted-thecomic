@@ -605,7 +605,6 @@ main {
   background-attachment: fixed; }
 
 #main-splash {
-  min-height: 87vh;
   margin-bottom: 3rem;
   background-image: url(/assets/bg-sharp.svg);
   background-size: cover;
@@ -624,7 +623,7 @@ main {
 
 img#splash-logo {
   width: 70%;
-  max-width: 900px;
+  max-width: 750px;
   margin-bottom: 2rem; }
 
 .splash-ch-thumb, .splash-ch-description {
@@ -680,6 +679,9 @@ mark {
     #update-col p img, #issues-col p img, #front-col p img {
       width: 100%;
       max-width: 980px; }
+
+#update-col {
+  padding-bottom: 0; }
 
 .gray {
   color: #8f8f8f; }

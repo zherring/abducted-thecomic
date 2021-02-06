@@ -6,7 +6,7 @@ main {
 }
 
 #main-splash {
-  min-height: 87vh;
+  // min-height: 87vh;
   margin-bottom: 3rem;
   background-image: url(/assets/bg-sharp.svg);
   background-size: cover;
@@ -22,7 +22,7 @@ main {
   img.splash { width: 100%; max-width: 800px; min-height: 500vh; }
 }
 
-img#splash-logo { width: 70%; max-width: 900px; margin-bottom: 2rem;}
+img#splash-logo { width: 70%; max-width: 750px; margin-bottom: 2rem;}
 
 .splash-ch-thumb, .splash-ch-description { text-align: left; }
 
@@ -79,6 +79,9 @@ mark {
   }
 }
 
+#update-col {
+  padding-bottom: 0;
+}
 #main-splash {
 }
 .gray {
