@@ -12,21 +12,19 @@
           </div>
 
           <div style="display:none;">
-            <h2 class="typewr">Latest Updates</h2>
             <div id="update-col" class="fl fl-row">
 
 
               {% for item in site.tags.new %}
 
                 <div class="fl fl-col chapter-item">
-
+                  <h2 class="typewr">Latest Issue</h2>
                   <a href="{{item.url}}">
                     <div class="splash-ch-thumb" style="background-image: url('{{site.baseurl}}/assets{{item.permalink}}cover.jpg')">
                       <aside class="typewr"><mark>{{item.aside}}</mark></aside>
                       <h3 class="typewr"><mark>{{item.title}}<mark></h3>
                     </div>
                   </a>
-
                     <div class="splash-ch-description">
                       <a href="{{item.url}}" class="typewr">{{ item.description }}</a>
                       <p>
@@ -43,20 +41,18 @@
 
 
                 <div class="fl fl-col chapter-item">
-
+                  <h2 class="typewr">The Store is Live!</h2>
                   <a href="/store">
                     <div class="splash-ch-thumb" style="background-image: url('{{site.baseurl}}/assets/store/cover.jpg')">
-                      <!-- <aside class="typewr"><mark></mark></aside> -->
+                      <aside class="typewr"><mark>EMBRACE CAPITALISM</mark></aside>
                       <h3 class="typewr"><mark>&nbsp;🛒&nbsp; Store<mark></h3>
                     </div>
                   </a>
-
                     <div class="splash-ch-description">
                       <a href="/store" class="typewr">
-                        Buy the limited-run physical editions of Abducted comics, stickers, and more!
+                        CONSUME. <br /> Buy the limited-run physical editions of Abducted comics and help us pay for more comics.
                       </a>
                     </div>
-
                 </div>
 
               </div>
