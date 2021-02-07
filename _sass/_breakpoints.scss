@@ -20,10 +20,16 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation: portrait) {
 
+    #store-wrapper {
+      padding: 1rem;
+         #blog-gutter {
+        display: none;
+      }
+    }
     #store .item {
       width: 100%;
     }
-    
+
     .mob-no { display: none; }
     img#splash-logo {
     width: 100%;

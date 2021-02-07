@@ -1,10 +1,10 @@
 ---
 layout: chapter
 title: Open Chords
-aside: Chapter Six
-permalink: /chapter-six/
+aside: Chapter Five
+permalink: /chapter-five/
 spotify: playlist/2k91L4sDkeFZeDKXSSCU6S
-description: The end of all things has come to Katon, New Mexico.
+description: The end of all things has come to Katon, New Mexico. <i>**Coming soon**</i>
 tags: issue new
 ---
 

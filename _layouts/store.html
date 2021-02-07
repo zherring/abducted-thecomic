@@ -1,24 +1,26 @@
 {% include header.html %}
-<div id="store">
-  <a href="/">{% include logo.html %}</a>
-  <h1 class="typewr">Store</h1>
 
-  {% for item in site.tags.storeitem %}
-    <div class="item">
-      <div class="store-left-col">
-        <a href="{{item.store-link}}" target="_blank">
-          <img class="product-shot" src="{{item.img}}">
-        </a>
+<div id="store-wrapper">
+  <section id="blog-gutter" class="inte-rior"></section>
+  <div id="store">
+    <a href="/">{% include logo.html %}</a>
+    <h1 class="typewr">Store</h1>
+
+    {% for item in site.tags.storeitem %}
+      <div class="item">
+        <div class="store-left-col">
+          <a href="{{item.store-link}}" target="_blank">
+            <img class="product-shot" src="{{item.img}}">
+          </a>
+        </div>
+        <div class="store-right-col">
+          <h2 class="typewr">{{item.title}}</h2>
+          <p>{{item.description}} </p>
+          <a class="buy" href="{{item.store-link}}" target="_blank"> ${{item.price}} + S&H | Buy Now</a>
+        </div>
       </div>
-      <div class="store-right-col">
-        <h2 class="typewr">{{item.title}}</h2>
-        <p>{{item.description}} </p>
-        <a class="buy" href="{{item.store-link}}" target="_blank"> ${{item.price}} + S&H | Buy Now</a>
-      </div>
-    </div>
-  {% endfor %}
-
-
+    {% endfor %}
+  </div>
 </div>
   {% include footer.html %}
 

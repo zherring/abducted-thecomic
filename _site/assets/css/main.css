@@ -826,6 +826,11 @@ nav {
   position: absolute; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  #store-wrapper {
+    padding: 1rem; }
+    #store-wrapper #blog-gutter {
+      display: none; }
+
   #store .item {
     width: 100%; }
 
@@ -996,6 +1001,10 @@ nav {
   display: block;
   max-width: 80vw;
   width: 28.75rem; }
+
+#store-wrapper {
+  display: flex;
+  flex-direction: row; }
 
 #store {
   display: flex;
