@@ -4,7 +4,7 @@ title: Open Chords
 aside: Chapter Five
 permalink: /chapter-five/
 spotify: playlist/2k91L4sDkeFZeDKXSSCU6S
-description: The end of all things has come to Katon, New Mexico. <i>**Coming soon**</i>
+description: The end of all things has come to Katon, New Mexico.
 tags: issue new
 ---
 
