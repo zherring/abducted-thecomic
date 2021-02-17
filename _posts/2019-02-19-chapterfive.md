@@ -8,9 +8,7 @@ description: The end of all things has come to Katon, New Mexico. <i>**Coming so
 tags: issue new
 ---
 
-Dropping February 17th, 2021
 
-<div style="display:none;">
 <img data-src="{{site.baseurl}}/assets/chapter-six/p1.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p2.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p3.jpg" class="lazyload" />
@@ -35,5 +33,3 @@ Dropping February 17th, 2021
 <img data-src="{{site.baseurl}}/assets/chapter-six/p22.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p23.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p24.jpg" class="lazyload" />
-
-</div>
