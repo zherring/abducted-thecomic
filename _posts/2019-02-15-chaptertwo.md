@@ -7,6 +7,7 @@ spotify: playlist/4JJQUguNH1IY2Po4OKMFHr
 description: Claire wakes up at the wrong time and Doc reminisces about the past with friends.
 tags: issue
 ---
+<img data-src="{{site.baseurl}}/assets/chapter-two/cover-large.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-two/p1.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-two/p2.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-two/p3.jpg" class="lazyload" />

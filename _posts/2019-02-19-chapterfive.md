@@ -8,7 +8,7 @@ description: The end of all things has come to Katon, New Mexico.
 tags: issue new
 ---
 
-
+<img data-src="{{site.baseurl}}/assets/chapter-six/cover-large.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p1.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p2.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p3.jpg" class="lazyload" />

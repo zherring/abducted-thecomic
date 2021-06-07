@@ -7,6 +7,7 @@ spotify: playlist/6oSohGpSJBDRt6v6MYpS86
 description: Claire and Jordan hatch an escape plan. Doc finds answers.
 tags: issue
 ---
+<img data-src="{{site.baseurl}}/assets/chapter-four/cover-large.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-1.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-2.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-3.jpg" class="lazyload" />

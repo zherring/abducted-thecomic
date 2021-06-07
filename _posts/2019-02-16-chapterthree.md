@@ -7,6 +7,7 @@ spotify: playlist/4QwM4A0nFbZpO31WHwBdhy
 description: Sgt. Troy Karrlson gets back to work. Claire meets her captors. Doc wakes up.
 tags: issue
 ---
+<img data-src="{{site.baseurl}}/assets/chapter-three/cover-large.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p1.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p2.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p3.jpg" class="lazyload" />

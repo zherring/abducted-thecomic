@@ -9,6 +9,7 @@ tags: issue
 
 ---
 
+<img data-src="{{site.baseurl}}/assets/chapter-one/cover-large.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p1.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p2.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-one/p3.jpg" class="lazyload" />
