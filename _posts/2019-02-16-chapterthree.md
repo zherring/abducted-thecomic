@@ -8,16 +8,19 @@ description: Sgt. Troy Karrlson gets back to work. Claire meets her captors. Doc
 tags: issue
 ---
 <img data-src="{{site.baseurl}}/assets/chapter-three/cover-large.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-three/p1.jpg" class="lazyload" />
+<div class="hidden">
+<!-- <img data-src="{{site.baseurl}}/assets/chapter-three/p1.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p2.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p3.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p4.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p5.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-three/p6.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-three/p6.jpg" class="lazyload" /> -->
+</div>
 <img data-src="{{site.baseurl}}/assets/chapter-three/p7.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p8.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p9.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-three/p10.jpg" class="lazyload" />
+<div class="hidden">
+<!-- <img data-src="{{site.baseurl}}/assets/chapter-three/p10.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p11.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p12.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-three/p13.jpg" class="lazyload" />
@@ -37,4 +40,5 @@ tags: issue
 <img data-src="{{site.baseurl}}/assets/chapter-four/p13.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-four/p14.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-four/p15.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-four/p16.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-four/p16.jpg" class="lazyload" /> -->
+</div>

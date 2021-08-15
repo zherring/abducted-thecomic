@@ -12,7 +12,8 @@ tags: issue new
 <img data-src="{{site.baseurl}}/assets/chapter-six/p1.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p2.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p3.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-six/p4.jpg" class="lazyload" />
+<div class="hidden">
+<!-- <img data-src="{{site.baseurl}}/assets/chapter-six/p4.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p5.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p6.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p7.jpg" class="lazyload" />
@@ -32,4 +33,5 @@ tags: issue new
 <img data-src="{{site.baseurl}}/assets/chapter-six/p21.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p22.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-six/p23.jpg" class="lazyload" />
-<img data-src="{{site.baseurl}}/assets/chapter-six/p24.jpg" class="lazyload" />
+<img data-src="{{site.baseurl}}/assets/chapter-six/p24.jpg" class="lazyload" /> -->
+</div>

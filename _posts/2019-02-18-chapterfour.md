@@ -11,7 +11,11 @@ tags: issue
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-1.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-2.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-3.jpg" class="lazyload" />
+
+
+<div class="hidden">
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-4.jpg" class="lazyload" />
+
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-5.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-6.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-7.jpg" class="lazyload" />
@@ -32,3 +36,4 @@ tags: issue
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-22.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-23.jpg" class="lazyload" />
 <img data-src="{{site.baseurl}}/assets/chapter-five/5-24.jpg" class="lazyload" />
+</div>
